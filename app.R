@@ -3,6 +3,8 @@ library(shiny)
 library(bslib)
 library(querychat)
 
+OPENAI_API_KEY <- Sys.getenv("OPENAI_API_KEY")
+
 querychat_config <- querychat_init(mtcars)
 
 ui <- page_sidebar(
