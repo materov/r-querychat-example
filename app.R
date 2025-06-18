@@ -3,7 +3,7 @@ library(shiny)
 library(bslib)
 library(querychat)
 
-OPENAI_API_KEY <- Sys.getenv("OPENAI_API_KEY")
+GOOGLE_API_KEY <- Sys.getenv("GOOGLE_API_KEY")
 
 querychat_config <- querychat_init(mtcars)
 
